@@ -56,7 +56,7 @@ function wrapText(ctx, text) {
     ctx.fillText(line, x, y);
 }
 function draw(ctx, size, text) {
-    loadImage("./resources/t_wada.png").then(function(image) {
+    loadImage("./resources/yosuke_furukawa.jpg").then(function(image) {
         ctx.clearRect(0, 0, size.width, size.height);
         ctx.drawImage(image, 0, 0, size.width, size.height);
         drawFukidashi(ctx);
